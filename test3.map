@@ -1,0 +1,36 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+dis_rp                                                            0x0160       2
+dis_chb                                                           0x0162       2
+dis_rb                                                            0x0164       2
+text                                                              0x0166      40
+S0                                                                0x018E       4
+S1                                                                0x0192       4
+S2                                                                0x0196       4
+S3                                                                0x019A       4
+S4                                                                0x019E       4
+S5                                                                0x01A2       4
+S6                                                                0x01A6       4
+S7                                                                0x01AA       4
+cntr                                                              0x01AE       2
+_base_y                                                           0x01B0       4
+_lcd_x                                                            0x01B4       1
+_lcd_y                                                            0x01B5       1
+_lcd_maxx                                                         0x01B6       1
+_seed                                                             0x01B7       4
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+rast90                                                            0x0000       2
+chap90                                                            0x0002       2
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+timer                                                             R4,R5        2
+cnt                                                               R6,R7        2
+num                                                               R8,R9        2
+dis_j                                                             R10,R11      2
+dis_chp                                                           R12,R13      2
